@@ -1,13 +1,6 @@
 const app = require("./index");
 const connect = require("./configs/db");
 
-// const path = require('path');
-
-// // static fils
-// app.use(express.static(path.join(__dirname, './client/dist')))
-// app.get('*', function(req, res){
-//     res.sendFile(path.join(__dirname, "./client/dist/index.html"))
-// })
 
 
 const port = process.env.PORT || 8000;
